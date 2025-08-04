@@ -1,0 +1,4 @@
+[
+  { "nombre": "Paracetamol 500mg", "stockActual": 3, "stockMinimo": 5 },
+  { "nombre": "Ibuprofeno 400mg", "stockActual": 1, "stockMinimo": 5 }
+]

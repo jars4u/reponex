@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Paracetamol 500 MG TAB 10u",
+    "precio": 1.8,
+    "drogueria": "Droguería Alfa"
+  },
+  {
+    "nombre": "Paracetamol500 mg Caja x20",
+    "precio": 2.1,
+    "drogueria": "Droguería Beta"
+  },
+  {
+    "nombre": "Ibuprofeno 400mg Blister",
+    "precio": 1.5,
+    "drogueria": "Droguería Alfa"
+  }
+]
