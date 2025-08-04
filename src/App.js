@@ -494,14 +494,14 @@ export default function App() {
             <tbody>
               {listaReposicionOrdenada.map((item, i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                  <td className="border px-2 py-1">
+                  <td className="border px-2 py-1 text-xs">
                     {item.producto?.toUpperCase()}
                   </td>
-                  <td className="border px-2 py-1">{item.cantidadReponer}</td>
-                  <td className="border px-2 py-1">
+                  <td className="border px-2 py-1 text-xs">{item.cantidadReponer}</td>
+                  <td className="border px-2 py-1 text-xs">
                     {item.precio !== null ? `$${item.precio.toFixed(2)}` : "-"}
                   </td>
-                  <td className="border px-2 py-1 whitespace-nowrap overflow-hidden text-ellipsis max-w-xs">
+                  <td className="border px-2 py-1 whitespace-nowrap overflow-hidden text-ellipsis max-w-xs text-xs">
                     {item.proveedor}
                   </td>
                 </tr>
